@@ -1,0 +1,24 @@
+{
+  "_data_files": [
+    {
+      "filename": "dataset.arrow"
+    }
+  ],
+  "_fingerprint": "33a6468b3f7330bc",
+  "_format_columns": [
+    "content",
+    "content_replaced_hashtags",
+    "has_hashtag",
+    "polarity",
+    "translation",
+    "translation_replaced_hashtags",
+    "translation_segmented_hashtags",
+    "tweetid"
+  ],
+  "_format_kwargs": {},
+  "_format_type": null,
+  "_indexes": {},
+  "_indices_data_files": null,
+  "_output_all_columns": false,
+  "_split": null
+}

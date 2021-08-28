@@ -1,0 +1,60 @@
+{
+  "builder_name": null,
+  "citation": "",
+  "config_name": null,
+  "dataset_size": null,
+  "description": "",
+  "download_checksums": null,
+  "download_size": null,
+  "features": {
+    "content": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "content_replaced_hashtags": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "has_hashtag": {
+      "dtype": "bool",
+      "id": null,
+      "_type": "Value"
+    },
+    "polarity": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "translation": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "translation_replaced_hashtags": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "translation_segmented_hashtags": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "tweetid": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "[More Information needed]",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": null,
+  "splits": null,
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": null
+}

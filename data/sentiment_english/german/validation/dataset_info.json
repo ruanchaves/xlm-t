@@ -1,0 +1,110 @@
+{
+  "builder_name": "umsab",
+  "citation": "",
+  "config_name": "default",
+  "dataset_size": 276909,
+  "description": "",
+  "download_checksums": {
+    "https://raw.githubusercontent.com/ruanchaves/xlm-t/main/data/sentiment/german/train_text.txt": {
+      "num_bytes": 141019,
+      "checksum": "d2dbc3acbb9a71ebe209490794ef88be232a8e0f045cf8db0b713762f14c6098"
+    },
+    "https://raw.githubusercontent.com/ruanchaves/xlm-t/main/data/sentiment/german/train_labels.txt": {
+      "num_bytes": 3677,
+      "checksum": "1225a2d319fe4831e1dcb859a51e21c6a8a40c627f4a18c4e872554c385d23f5"
+    },
+    "https://raw.githubusercontent.com/ruanchaves/xlm-t/main/data/sentiment/german/val_text.txt": {
+      "num_bytes": 23355,
+      "checksum": "26f75c207b0a3478f5290bb2968c36821350c6326e962bf3551f928b57bde775"
+    },
+    "https://raw.githubusercontent.com/ruanchaves/xlm-t/main/data/sentiment/german/val_labels.txt": {
+      "num_bytes": 647,
+      "checksum": "2728c5af0a67fdb89dfbab4663e5df365c529bb7c513192e829771ebe16aef65"
+    },
+    "https://raw.githubusercontent.com/ruanchaves/xlm-t/main/data/sentiment/german/test_text.txt": {
+      "num_bytes": 66112,
+      "checksum": "2a02cdee0a147beebc5d401978d539055451cf0647b5592e274a8e9a0d60cf7f"
+    },
+    "https://raw.githubusercontent.com/ruanchaves/xlm-t/main/data/sentiment/german/test_labels.txt": {
+      "num_bytes": 1739,
+      "checksum": "7977cc5b0346f7ddab596fa6655ee7d2fe9f36c77129bfc14f3307d607a91761"
+    }
+  },
+  "download_size": 236549,
+  "features": {
+    "content": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "content_replaced_hashtags": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "has_hashtag": {
+      "dtype": "bool",
+      "id": null,
+      "_type": "Value"
+    },
+    "polarity": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "translation": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "translation_replaced_hashtags": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "translation_segmented_hashtags": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    },
+    "tweetid": {
+      "dtype": "string",
+      "id": null,
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "[More Information needed]",
+  "post_processed": null,
+  "post_processing_size": null,
+  "size_in_bytes": 513458,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 169576,
+      "num_examples": 1839,
+      "dataset_name": "umsab"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 28159,
+      "num_examples": 324,
+      "dataset_name": "umsab"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 79174,
+      "num_examples": 870,
+      "dataset_name": "umsab"
+    }
+  },
+  "supervised_keys": null,
+  "task_templates": null,
+  "version": {
+    "version_str": "0.0.0",
+    "description": null,
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
